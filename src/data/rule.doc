@@ -1,0 +1,43 @@
+{
+  id: 1,
+  category: "Noise",
+  title: "Maintain Quiet Hours",
+  rule: "Avoid loud noises between 10 PM and 7 AM",
+  description: "Residents should keep noise levels low during quiet hours to respect neighbors’ rest and privacy."
+},
+{
+  id: 2,
+  category: "Parking",
+  title: "Authorized Parking Only",
+  rule: "Park only in designated parking areas with valid authorization",
+  description: "Vehicles without permits may be towed. Ensure your parking pass is clearly visible at all times."
+},
+{
+  id: 3,
+  category: "Pets",
+  title: "Pet Cleanliness and Control",
+  rule: "Owners must clean up after their pets and keep them leashed in public areas",
+  description: "Pets are welcome but must not cause disturbances or leave waste in shared spaces."
+},
+{
+  id: 4,
+  category: "Smoking",
+  title: "No Smoking in Common Areas",
+  rule: "Smoking is prohibited in hallways, elevators, and shared spaces",
+  description: "Designated smoking zones are available outside. Maintain air quality and health for all residents."
+},
+{
+  id: 5,
+  category: "Safety",
+  title: "Fire Safety Compliance",
+  rule: "Do not block exits or tamper with fire extinguishers and alarms",
+  description: "Always keep fire exits clear and report any damaged safety equipment immediately."
+},
+{
+  id: 6,
+  category: "Cleanliness",
+  title: "Maintain Common Area Cleanliness",
+  rule: "Do not litter or leave personal belongings in shared areas",
+  description: "Help maintain a clean and pleasant environment by disposing waste properly and keeping hallways clear."
+}
+
