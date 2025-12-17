@@ -20,6 +20,7 @@ const Navbar = () => {
   const params=useSearchParams();
   const projectId=params.get("project");
   const pathname = usePathname();
+  //add the credits logic
   const me=useAppSelector((state)=>state.profile);
   const tabs:TabProps[]=[
     {
@@ -39,7 +40,7 @@ const Navbar = () => {
     api.projects.getProject,
     projectId? {projectId : projectId as Id<"projects">}:"skip"
   );
-  
+
   console.log(project);
   return (
     <div className='grid grid-cols-2 lg:grid-cols-3 p-6 fixed top-0 left-0 right-0 z-50'>
